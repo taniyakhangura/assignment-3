@@ -1,8 +1,22 @@
 /* your css here */
-
+h1{
+    text-align: center;
+}
+h2{
+    padding: 20px 10px 5px 40px;
+}
+img{
+    padding-left: 40px
+}
+p{
+    padding: 0px 550px 10px 40px;
+}
+form{
+    padding: 0px 550px 10px 40px;
+}
 /* color scheme */
 :root {
-    --header-bg-color: #222;
+    --header-bg-color: rgb(34, 34, 34);
     --header-txt-color: #aaa;
     --header-highlight-color: white;
 }
@@ -16,10 +30,13 @@
 }
 
 main {
-    min-height: calc(100vh - 8em);
+    min-height: calc(200vh - 9em);
 }
 footer {
-    height: 1em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 3em;
 }
 
 .navbar-inverse{
